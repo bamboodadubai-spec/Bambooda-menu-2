@@ -490,3 +490,64 @@ text-align:center;
 }
 
 }
+/* ===== PREMIUM TABLE ===== */
+
+.table-head{
+    display:grid;
+    grid-template-columns:1fr 90px 90px;
+    padding:12px 0;
+    margin-bottom:8px;
+    border-bottom:2px solid rgba(215,177,91,.35);
+    color:#d7b15b;
+    font-weight:700;
+    font-size:14px;
+    letter-spacing:1px;
+    text-transform:uppercase;
+}
+
+.table-head span:nth-child(2),
+.table-head span:nth-child(3){
+    text-align:right;
+}
+
+.item{
+    display:grid;
+    grid-template-columns:1fr 90px 90px;
+    align-items:center;
+    gap:10px;
+    padding:14px 0;
+    border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+.item span{
+    color:#fff;
+    font-size:16px;
+}
+
+.item b{
+    text-align:right;
+    color:#d7b15b;
+    font-size:16px;
+    font-weight:700;
+}
+
+@media(max-width:650px){
+
+.table-head{
+grid-template-columns:1fr 70px 70px;
+font-size:12px;
+}
+
+.item{
+grid-template-columns:1fr 70px 70px;
+}
+
+.item span{
+font-size:15px;
+}
+
+.item b{
+font-size:14px;
+}
+
+}
