@@ -632,3 +632,12 @@ font-size:14px;
 .menu-card p{
     font-size:17px;
 }
+.banner-image{
+    width:100%;
+    height:240px;
+    object-fit:cover;
+    border-radius:20px;
+    margin:20px 0 30px;
+    border:1px solid rgba(215,177,91,.30);
+    display:block;
+}
