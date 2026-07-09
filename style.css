@@ -586,3 +586,11 @@ font-size:14px;
         font-size:15px;
     }
 }
+.menu-description{
+    color:#cfcfcf;
+    font-size:17px;
+    max-width:650px;
+    margin:12px auto 34px;
+    line-height:1.7;
+    text-align:center;
+}
