@@ -551,3 +551,38 @@ font-size:14px;
 }
 
 }
+/* ===== FIX OLD ITEM FORMAT ===== */
+
+.menu-block .item{
+    display:flex !important;
+    flex-direction:row !important;
+    justify-content:space-between !important;
+    align-items:flex-start !important;
+    gap:18px !important;
+}
+
+.menu-block .item span{
+    flex:1;
+}
+
+.menu-block .item b{
+    min-width:110px;
+    text-align:right !important;
+    white-space:nowrap;
+}
+
+.table-head{
+    display:none !important;
+}
+
+@media(max-width:650px){
+    .menu-block .item{
+        flex-direction:row !important;
+        align-items:flex-start !important;
+    }
+
+    .menu-block .item b{
+        min-width:105px;
+        font-size:15px;
+    }
+}
