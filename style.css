@@ -1377,3 +1377,38 @@ img{
         margin:28px auto 34px;
     }
 }
+/* ================= FULL DARK LUXURY BACKGROUND ================= */
+
+body{
+    background:#050505 !important;
+}
+
+.info-bar,
+.offers-section,
+.menu-section{
+    background:
+        linear-gradient(
+            rgba(5,5,5,.82),
+            rgba(5,5,5,.82)
+        ),
+        url("menu-bg.png") center center / cover no-repeat !important;
+
+    border:none;
+    box-shadow:none;
+}
+
+/* Mobile spacing */
+@media (max-width:768px){
+
+    .info-bar,
+    .offers-section,
+    .menu-section{
+        padding:24px 16px;
+        margin:0;
+    }
+
+    .offers-section h2{
+        font-size:34px;
+        line-height:1.05;
+    }
+}
