@@ -1019,3 +1019,14 @@ font-size:14px;
         linear-gradient(rgba(7,19,13,.88), rgba(7,19,13,.88)),
         url("menu-bg.png") center center / cover fixed;
 }
+/* MENU PAGE BACKGROUND FIX */
+
+body.digital-menu{
+    background:
+        linear-gradient(rgba(7,19,13,.88), rgba(7,19,13,.88)),
+        url("./menu-bg.png") center center / cover fixed no-repeat;
+}
+
+body.digital-menu .menu-list-page{
+    background:transparent;
+}
