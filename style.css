@@ -641,3 +641,57 @@ font-size:14px;
     border:1px solid rgba(215,177,91,.30);
     display:block;
 }
+/* ===== MENU CARDS ===== */
+
+.menu-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:18px;
+    margin-top:30px;
+}
+
+.menu-card{
+    display:block;
+    background:#0f1b12;
+    border:1px solid rgba(215,177,91,.35);
+    border-radius:18px;
+    overflow:hidden;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.menu-card:hover{
+    transform:translateY(-6px);
+    border-color:#d7b15b;
+    box-shadow:0 10px 25px rgba(215,177,91,.18);
+}
+
+.card-img{
+    width:100%;
+    height:150px;
+    object-fit:cover;
+    display:block;
+}
+
+.menu-card h3{
+    color:#d7b15b;
+    font-size:20px;
+    margin:16px 16px 8px;
+}
+
+.menu-card p{
+    color:#ddd;
+    margin:0 16px 18px;
+    line-height:1.5;
+    font-size:14px;
+}
+
+.view-btn{
+    margin:0 16px 18px;
+    padding:10px 16px;
+    border:1px solid #d7b15b;
+    color:#d7b15b;
+    border-radius:30px;
+    text-align:center;
+    font-weight:600;
+}
