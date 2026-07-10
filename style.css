@@ -747,3 +747,19 @@ font-size:14px;
     font-size:13px;
     font-weight:700;
 }
+.menu-card{
+    display:block;
+    padding:0;
+    min-height:auto;
+    overflow:hidden;
+    border:none;
+    border-radius:18px;
+    background:none;
+}
+
+.card-img{
+    width:100%;
+    height:auto;
+    display:block;
+    border-radius:18px;
+}
