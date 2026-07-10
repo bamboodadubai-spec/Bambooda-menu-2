@@ -596,7 +596,7 @@ body.digital-menu{
             rgba(4,13,9,.10),
             rgba(4,13,9,.18)
         ),
-        url("menu-bg.png") center center / cover fixed no-repeat;
+        url("menu-bg.png") center center /cover fixed no-repeat;
 }
 
 /* ================= MENU PAGE WRAPPER ================= */
