@@ -763,3 +763,149 @@ font-size:14px;
     display:block;
     border-radius:18px;
 }
+/* ===== PREMIUM MOBILE HERO ===== */
+
+.hero{
+    min-height:100svh;
+    background:
+        linear-gradient(to bottom, rgba(0,0,0,.30), rgba(0,12,7,.88)),
+        url("hero-bg.png") center/cover no-repeat;
+    display:flex;
+    align-items:flex-end;
+    justify-content:center;
+    padding:0 18px 34px;
+}
+
+.overlay{
+    background:linear-gradient(
+        to bottom,
+        rgba(0,0,0,.16),
+        rgba(0,8,5,.48) 48%,
+        rgba(0,12,7,.92)
+    );
+}
+
+.topbar{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding:18px 18px;
+    display:grid;
+    grid-template-columns:70px 1fr 70px;
+    align-items:center;
+    z-index:10;
+}
+
+.menu-icon,
+.call-btn{
+    color:#d7b15b;
+    text-decoration:none;
+    font-size:14px;
+    font-weight:700;
+}
+
+.menu-icon{
+    font-size:26px;
+    justify-self:start;
+}
+
+.call-btn{
+    justify-self:end;
+    border:1px solid rgba(215,177,91,.65);
+    border-radius:22px;
+    padding:8px 13px;
+}
+
+.logo{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    color:#d7b15b;
+    line-height:1;
+}
+
+.logo-mark{
+    font-family:Georgia, serif;
+    font-size:38px;
+    font-weight:700;
+}
+
+.logo-name{
+    margin-top:5px;
+    font-family:Georgia, serif;
+    font-size:16px;
+    letter-spacing:3px;
+}
+
+.hero-content{
+    width:100%;
+    max-width:520px;
+    padding:0;
+    text-align:left;
+    position:relative;
+    z-index:2;
+}
+
+.eyebrow{
+    color:#d7b15b;
+    font-size:11px;
+    letter-spacing:3px;
+    margin-bottom:14px;
+}
+
+.hero h1{
+    font-family:Georgia, serif;
+    font-size:43px;
+    line-height:.98;
+    letter-spacing:.5px;
+    margin-bottom:18px;
+    color:#fff;
+}
+
+.hero h1 span{
+    color:#d7b15b;
+    font-style:italic;
+    font-weight:400;
+}
+
+.hero-text{
+    max-width:330px;
+    color:rgba(255,255,255,.85);
+    font-size:15px;
+    line-height:1.55;
+    margin-bottom:22px;
+}
+
+.hero-buttons{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:10px;
+    width:100%;
+}
+
+.hero-buttons .btn{
+    padding:13px 8px;
+    border-radius:8px;
+    text-align:center;
+    font-size:13px;
+}
+
+.quick-links{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:8px;
+    margin-top:15px;
+    width:100%;
+}
+
+.quick-links a{
+    padding:10px 4px;
+    border:1px solid rgba(215,177,91,.35);
+    border-radius:9px;
+    color:#fff;
+    text-align:center;
+    text-decoration:none;
+    font-size:12px;
+    background:rgba(0,0,0,.28);
+}
