@@ -593,10 +593,10 @@ body.digital-menu{
     min-height:100vh;
     background:
         linear-gradient(
-            rgba(4,13,9,.10),
-            rgba(4,13,9,.18)
+            rgba(4,13,9,.03),
+            rgba(4,13,9,.08)
         ),
-        url("menu-bg.png") center center /cover fixed no-repeat;
+        url("menu-bg.png") center center / cover fixed no-repeat;
 }
 
 /* ================= MENU PAGE WRAPPER ================= */
@@ -780,20 +780,17 @@ body.digital-menu{
         transform:translateY(0);
     }
 }
+/* ================= MENU PAGE BODY ================= */
 
-/* ================= MOBILE MENU PAGE ================= */
-
-@media(max-width:600px){
-
-    body.digital-menu{
-        background:
-            linear-gradient(
-                rgba(4,13,9,.68),
-                rgba(4,13,9,.82)
-            ),
-            url("menu-bg.png")
-            center center/cover fixed no-repeat;
-    }
+body.digital-menu{
+    min-height:100vh;
+    background:
+        linear-gradient(
+            rgba(4,13,9,.03),
+            rgba(4,13,9,.08)
+        ),
+        url("menu-bg.png") center center / cover fixed no-repeat;
+}
 
     .menu-list-page{
         padding:28px 12px 60px;
