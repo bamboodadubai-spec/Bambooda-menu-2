@@ -593,11 +593,10 @@ body.digital-menu{
     min-height:100vh;
     background:
         linear-gradient(
-            rgba(4,13,9,.20),
-            rgba(4,13,9,.35)
+            rgba(4,13,9,.10),
+            rgba(4,13,9,.18)
         ),
-        url("menu-bg.png")
-        center center/cover fixed no-repeat;
+        url("menu-bg.png") center center / cover fixed no-repeat;
 }
 
 /* ================= MENU PAGE WRAPPER ================= */
