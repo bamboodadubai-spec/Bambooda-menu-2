@@ -1488,3 +1488,47 @@ body.digital-menu{
         ),
         url("menu-bg.png") center center / cover fixed no-repeat !important;
 }
+/* ===== Sticky Header ===== */
+
+.sticky-header{
+    position:fixed;
+    top:-70px;
+    left:0;
+    width:100%;
+    height:60px;
+    background:rgba(10,10,10,.82);
+    backdrop-filter:blur(14px);
+    -webkit-backdrop-filter:blur(14px);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 18px;
+    z-index:9999;
+    transition:.35s ease;
+    border-bottom:1px solid rgba(215,177,91,.25);
+}
+
+.sticky-header.show{
+    top:0;
+}
+
+.sticky-header a{
+    color:#d7b15b;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.sticky-header span{
+    color:#fff;
+    font-size:17px;
+    font-weight:700;
+}
+
+.banner-image{
+    transition:transform .4s ease, opacity .4s ease;
+}
+
+.banner-image.is-shrunk{
+    transform:scale(.92);
+    opacity:.75;
+}
