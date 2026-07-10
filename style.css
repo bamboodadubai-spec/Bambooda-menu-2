@@ -909,3 +909,105 @@ font-size:14px;
     font-size:12px;
     background:rgba(0,0,0,.28);
 }
+/* ===== FINAL HERO POLISH ===== */
+
+.hero{
+    min-height:85svh;
+    background:
+        linear-gradient(to bottom, rgba(0,0,0,.20), rgba(0,10,6,.50)),
+        url("hero-bg.png") center/cover no-repeat;
+    display:flex;
+    align-items:flex-end;
+    justify-content:center;
+    padding:0 18px 34px;
+    overflow:hidden;
+    animation:heroZoom 16s ease-in-out infinite alternate;
+}
+
+@keyframes heroZoom{
+    from{
+        background-size:100%;
+    }
+    to{
+        background-size:108%;
+    }
+}
+
+.overlay{
+    background:linear-gradient(
+        to bottom,
+        rgba(0,0,0,.12),
+        rgba(0,8,5,.35) 50%,
+        rgba(0,12,7,.82)
+    );
+}
+
+.logo-mark{
+    font-size:54px;
+}
+
+.logo-name{
+    font-size:18px;
+    letter-spacing:4px;
+}
+
+.hero-content{
+    width:100%;
+    max-width:520px;
+    margin-top:70px;
+    padding:0;
+    text-align:left;
+}
+
+.hero h1{
+    font-size:54px;
+    line-height:.98;
+    margin-bottom:20px;
+}
+
+.hero-text{
+    max-width:360px;
+    font-size:16px;
+    line-height:1.55;
+}
+
+.hero-buttons .btn{
+    transition:.3s ease;
+}
+
+.hero-buttons .btn:active{
+    transform:scale(.97);
+}
+
+.hero-buttons .btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 28px rgba(215,177,91,.30);
+}
+
+.call-btn{
+    border-width:1.5px;
+}
+
+@media(max-width:480px){
+
+    .hero{
+        min-height:85svh;
+        padding:0 18px 30px;
+    }
+
+    .logo-mark{
+        font-size:50px;
+    }
+
+    .logo-name{
+        font-size:17px;
+    }
+
+    .hero h1{
+        font-size:52px;
+    }
+
+    .hero-text{
+        font-size:15px;
+    }
+}
