@@ -1010,3 +1010,12 @@ font-size:14px;
         font-size:15px;
     }
 }
+.menu-list-page{
+    position: relative;
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+    background:
+        linear-gradient(rgba(7,19,13,.88), rgba(7,19,13,.88)),
+        url("menu-bg.jpg") center center / cover fixed;
+}
