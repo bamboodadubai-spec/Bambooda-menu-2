@@ -1367,3 +1367,13 @@ img{
         width:48%;
     }
 }
+@media(max-width:600px){
+    .offers-section h2{
+        font-size:34px;
+        line-height:1.05;
+    }
+
+    .offers-section{
+        margin:28px auto 34px;
+    }
+}
