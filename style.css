@@ -1478,3 +1478,13 @@ body{
         padding-bottom:12px;
     }
 }
+/* ===== FORCE MENU PAGE BACKGROUND ===== */
+
+body.digital-menu{
+    background:
+        linear-gradient(
+            rgba(4,13,9,0.03),
+            rgba(4,13,9,0.08)
+        ),
+        url("menu-bg.png") center center / cover fixed no-repeat !important;
+}
